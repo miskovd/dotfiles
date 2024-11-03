@@ -1,0 +1,87 @@
+sudo pacman -Sy
+sudo pacman -Syu
+sudo pacman -Syyu
+sudo yay -Syu
+
+pacman -S dhcpcd
+systemctl enable dhcpcd
+
+systemctl enable iwd
+systemctl enable dhcpcd@wlan0.service
+systemctl start dhcpcd@wlan0.service
+
+INTERNET:
+iwctl
+station wlan0 connect HONOR
+
+ADD WIFI AUTO LOAD:
+vi /var/lib/iwd/HONOR\ Magic5\ Lite\ 5G.psk 
+ADD:
+[Settings]
+AutoConnect=true
+
+BATTERY CHECK:
+watch -n0 cat /sys/class/power_supply/BAT0/capacity
+
+NO ASK SUDO PASSWORD ON UPDATE SYSTEM:
+sudo visudo
+username ALL=(ALL) NOPASSWD: /usr/bin/pacman -Syu
+
+
+
+INSTALL - AFTER INST HYPRLAND:
+sudo vim /etc/environment
+export LIBSEAT_BACKEND=LOGIND
+
+groups - get current user groups'
+sudo usermon -a -G seat username
+sudo systemctl enable seatd
+
+#sudo chmog a+w /run/seatd.sock - better way is to use usermon...
+
+
+
+vim home/dimditri/.cache/hyprland/hyprlandCrashReport686.txt
+
+
+
+
+INSTALLATIONS PACMAN:
+wl-clipboard cliphist
+sudo pacman -S otf-font-awesome and ttf-font-awesome
+or
+sudo pacman -S ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols
+https://christitus.com/my-new-desktop-hyprland/ - Install Fonts exemple
+/etc/xdg/waybar/
+ls -lah /usr/share/font
+SOUND:
+pavucontrol
+alsa-utils
+
+
+ranger
+
+AUR:
+NETWORK:
+#yay -S networkmanager-dmenu-git
+#sudo pacman -S networkmanager
+systemctl start NetworkManager.service
+systemctl enable NetworkManager.service
+
+#BLUETOOTH
+bluez
+bluez-utils
+
+
+VIDEO PLAYERS
+mpv, vlc
+
+PROBLEMS:
+Add apps  parameters to run from Wofi:
+cp /usr/share/applications/vlc.desktop ~/.local/share/applications
+Run apps in wayland mode:
+- https://wiki.hyprland.org/Getting-Started/Master-Tutorial/
+- You need to pass --enable-features=UseOzonePlatform --ozone-platform=wayland 
+
+
+
