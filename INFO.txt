@@ -59,7 +59,6 @@ pavucontrol
 alsa-utils
 
 
-ranger
 
 AUR:
 NETWORK:
@@ -72,6 +71,15 @@ systemctl enable NetworkManager.service
 bluez
 bluez-utils
 
+Image Viewer: Gwenview
+sudo pacman -S gwenview
+sudo pacman -S kimageformats
+sudo pacman -Syu swayimg
+sudo pacman -S libheif
+sudo pacman -S heif-thumbnailer
+sudo pacman -S ffmpegthumbs
+
+File Manager: ranger or yazi (Terminal), sometimes Thunar (GUI)
 
 VIDEO PLAYERS
 mpv, vlc
