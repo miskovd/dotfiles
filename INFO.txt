@@ -81,8 +81,28 @@ sudo pacman -S ffmpegthumbs
 
 File Manager: ranger or yazi (Terminal), sometimes Thunar (GUI)
 
+#PDF readers:
+sudo pacman -S zathura zathura-pdf-mupdf
+Also: Okular big and powerfull(pdf, epub, markdown), sioyek(light but not correct in wyaland)
+
+#SCANER
+sudo pacman -S sane imagemagick
+scanimage -L - detect scanner
+scanimage --format=png --resolution 300dpi > page.png && convert page.png document.pdf && rm page.png
+scanimage -d epson2:net:192.168.0.32 --format=png --resolution 300dpi > page.png && convert page.png document.pdf && rm page.png
+IN ALIAS
+echo "alias scanpdf='scanimage --format=png --resolution 300dpi > page.png && convert page.png document.pdf && rm page.png'" >> ~/.bashrc
+source ~/.bashrc
+scanpdf - To run
+
+
+
 VIDEO PLAYERS
 mpv, vlc
+
+DEFAULT APPS LANCHERS:
+nvim ~/.config/mimeapps.list       - list of lunchers
+ls -lah /usr/share/applications/   -  list of desktop applications
 
 PROBLEMS:
 Add apps  parameters to run from Wofi:
