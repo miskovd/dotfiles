@@ -117,4 +117,7 @@ Run apps in wayland mode:
 - You need to pass --enable-features=UseOzonePlatform --ozone-platform=wayland 
 
 
-
+TODO:
+~/.config/hypr/hyprland.conf - make main file import:
+- hyprland.config - default config
+- my.config - my changes
