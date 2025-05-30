@@ -79,7 +79,8 @@ sudo pacman -S libheif
 sudo pacman -S heif-thumbnailer
 sudo pacman -S ffmpegthumbs
 
-File Manager: ranger or yazi (Terminal), sometimes Thunar (GUI)
+File Manager: ranger or yazi (Terminal), sometimes 
+Thunar (GUI), ~/.config/Thunar/uca.xml - Saved Custom Actions
 
 #PDF readers:
 sudo pacman -S zathura zathura-pdf-mupdf
@@ -105,7 +106,8 @@ nvim ~/.config/mimeapps.list       - list of default apps lunchers(file associat
 ls -lah /usr/share/applications/   -  list of desktop applications
 
 ARCHIVER:
-xarchiver
+sudo pacman -S file-roller unzip unrar p7zip
+
 
 PROBLEMS:
 Add apps  parameters to run from Wofi:
