@@ -101,8 +101,11 @@ VIDEO PLAYERS
 mpv, vlc
 
 DEFAULT APPS LANCHERS:
-nvim ~/.config/mimeapps.list       - list of lunchers
+nvim ~/.config/mimeapps.list       - list of default apps lunchers(file association)
 ls -lah /usr/share/applications/   -  list of desktop applications
+
+ARCHIVER:
+xarchiver
 
 PROBLEMS:
 Add apps  parameters to run from Wofi:
