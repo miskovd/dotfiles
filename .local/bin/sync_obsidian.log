@@ -1,0 +1,1075 @@
+=== 2025-08-18 14:20:16 — Синхронизация начата ===
+=== 2025-08-18 14:20:46 — Синхронизация завершена ===
+
+=== 2025-08-18 14:24:49 — Синхронизация начата ===
+2025/08/18 14:24:56 ERROR : .obsidian/workspace.json: corrupted on transfer: md5 hashes differ src(Local file system at /home/dimitri/Documents/obsidian) "2eda5e9930c21013b8981bc70959c8ba" vs dst(Google drive root 'rclone/obsidian') "d48a9d894c2d9b56e4e648ae1e647631"
+2025/08/18 14:24:57 ERROR : Google drive root 'rclone/obsidian': not deleting files as there were IO errors
+2025/08/18 14:24:57 ERROR : Google drive root 'rclone/obsidian': not deleting directories as there were IO errors
+2025/08/18 14:24:57 ERROR : Attempt 1/3 failed with 1 errors and: corrupted on transfer: md5 hashes differ src(Local file system at /home/dimitri/Documents/obsidian) "2eda5e9930c21013b8981bc70959c8ba" vs dst(Google drive root 'rclone/obsidian') "d48a9d894c2d9b56e4e648ae1e647631"
+2025/08/18 14:25:01 ERROR : Attempt 2/3 succeeded
+=== 2025-08-18 14:25:01 — Синхронизация завершена ===
+
+=== 2025-08-18 16:53:03 — bisync начат ===
+2025/08/18 16:53:04 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 16:53:04 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 16:53:04 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 16:53:04 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 16:53:04 ERROR : [31mBisync critical error: cannot find prior Path1 or Path2 listings, likely due to critical error on prior run 
+[35mTip: here are the filenames we were looking for. Do they exist? 
+[0m[36mPath1: [94m/home/dimitri/.cache/rclone/bisync/home_dimitri_Documents_obsidian..gdrive_rclone_obsidian.path1.lst[0m
+[0m[36mPath2: [94m/home/dimitri/.cache/rclone/bisync/home_dimitri_Documents_obsidian..gdrive_rclone_obsidian.path2.lst[0m
+[0m[35mTry running this command to inspect the work dir: 
+[0m[96mrclone lsl "/home/dimitri/.cache/rclone/bisync"[0m[0m
+2025/08/18 16:53:04 ERROR : [31mBisync aborted. Must run --resync to recover.[0m
+2025/08/18 16:53:04 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Errors:                 1 (fatal error encountered)
+Elapsed time:         0.0s
+
+2025/08/18 16:53:04 NOTICE: Failed to bisync: bisync aborted
+=== 2025-08-18 16:53:04 — bisync завершён с ошибками (код 7) ===
+
+=== 2025-08-18 17:20:26 — Синхронизация начата ===
+2025/08/18 17:20:27 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 17:20:27 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 17:20:27 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 17:20:27 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 17:20:27 INFO  : Copying Path2 files to Path1
+2025/08/18 17:20:27 INFO  : - [34mPath2[0m    [35mResync is copying files to[0m         - [36mPath1[0m
+2025/08/18 17:20:28 INFO  : There was nothing to transfer
+2025/08/18 17:20:28 INFO  : - [36mPath1[0m    [35mResync is copying files to[0m         - [36mPath2[0m
+2025/08/18 17:20:30 INFO  : There was nothing to transfer
+2025/08/18 17:20:30 INFO  : Resync updating listings
+2025/08/18 17:20:30 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 17:20:30 INFO  : [32mBisync successful[0m
+2025/08/18 17:20:30 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                40 / 40, 100%, Listed 118
+Elapsed time:         2.2s
+
+=== 2025-08-18 17:20:30 — Синхронизация завершена успешно ===
+
+=== 2025-08-18 17:20:55 — Синхронизация начата ===
+2025/08/18 17:20:56 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 17:20:56 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 17:20:56 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 17:20:56 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 17:20:56 INFO  : Copying Path2 files to Path1
+2025/08/18 17:20:56 INFO  : - [34mPath2[0m    [35mResync is copying files to[0m         - [36mPath1[0m
+2025/08/18 17:20:57 INFO  : ADM: Made directory with metadata (mtime=2025-08-14T12:35:02.441Z)
+2025/08/18 17:20:57 INFO  : GIT: Made directory with metadata (mtime=2025-08-14T12:35:00.112Z)
+2025/08/18 17:20:57 INFO  : LARAVEL: Made directory with metadata (mtime=2025-08-14T07:01:40.719Z)
+2025/08/18 17:20:57 INFO  : LINUX: Made directory with metadata (mtime=2025-08-14T07:01:41.69Z)
+2025/08/18 17:20:57 INFO  : PRESTASHOP: Made directory with metadata (mtime=2025-08-14T07:00:59.469Z)
+2025/08/18 17:20:57 INFO  : SECURITY: Made directory with metadata (mtime=2025-08-14T12:39:25.723Z)
+2025/08/18 17:20:57 INFO  : SECURITY/HACK: Made directory with metadata (mtime=2025-08-14T12:39:26.647Z)
+2025/08/18 17:20:57 INFO  : ADM/IA - requests: Made directory with metadata (mtime=2025-08-14T12:35:03.315Z)
+2025/08/18 17:20:58 INFO  : LINUX/ERROR - Git not clone, pull....md: Copied (new)
+2025/08/18 17:20:58 INFO  : JAVASCRIPT SCRIPTS.md: Copied (new)
+2025/08/18 17:20:58 INFO  : PRESTASHOP/PRESTASHOP SCRIPTS.md: Copied (new)
+2025/08/18 17:20:58 INFO  : tmp LOCAM ERRORS.md: Copied (new)
+2025/08/18 17:20:58 INFO  : PRESTASHOP/Speed improvement.md: Copied (new)
+2025/08/18 17:20:58 INFO  : GIT/Git Commit template.md: Copied (new)
+2025/08/18 17:20:58 INFO  : GIT/Return to last git commit state.md: Copied (new)
+2025/08/18 17:20:59 INFO  : LARAVEL/Access Rate Limit by minut.md: Copied (new)
+2025/08/18 17:20:59 INFO  : SECURITY/GPG.md: Copied (new)
+2025/08/18 17:21:00 INFO  : SECURITY/HACK/HACKED SITE - Clean Up.md: Copied (new)
+2025/08/18 17:21:00 INFO  : SECURITY/HACK/Site antivirus.md: Copied (new)
+2025/08/18 17:21:00 INFO  : ADM/IA - requests/Actu.md: Copied (new)
+2025/08/18 17:21:00 INFO  : LARAVEL/HTTPS Migration.md: Copied (new)
+2025/08/18 17:21:00 INFO  : ADM/IA - requests/Context Axomedia.md: Copied (new)
+2025/08/18 17:21:00 INFO  : ADM/IA - requests/Adm 4 - Changelog.md: Copied (new)
+2025/08/18 17:21:01 INFO  : ADM/IA - requests/Audio Vidéo Mobile.md: Copied (new)
+2025/08/18 17:21:01 INFO  : ADM/IA - requests: Set directory modification time (using SetModTime)
+2025/08/18 17:21:01 INFO  : SECURITY/HACK: Set directory modification time (using SetModTime)
+2025/08/18 17:21:01 INFO  : LARAVEL: Set directory modification time (using SetModTime)
+2025/08/18 17:21:01 INFO  : SECURITY: Set directory modification time (using SetModTime)
+2025/08/18 17:21:01 INFO  : ADM: Set directory modification time (using SetModTime)
+2025/08/18 17:21:01 INFO  : PRESTASHOP: Set directory modification time (using SetModTime)
+2025/08/18 17:21:01 INFO  : GIT: Set directory modification time (using SetModTime)
+2025/08/18 17:21:01 INFO  : LINUX: Set directory modification time (using SetModTime)
+2025/08/18 17:21:01 INFO  : - [36mPath1[0m    [35mResync is copying files to[0m         - [36mPath2[0m
+2025/08/18 17:21:01 INFO  : Resync updating listings
+2025/08/18 17:21:01 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 17:21:01 INFO  : [32mBisync successful[0m
+2025/08/18 17:21:01 INFO  : 
+Transferred:   	   31.216 KiB / 31.216 KiB, 100%, 5.640 KiB/s, ETA 0s
+Checks:                24 / 24, 100%, Listed 94
+Transferred:           16 / 16, 100%
+Elapsed time:         5.2s
+
+=== 2025-08-18 17:21:01 — Синхронизация завершена успешно ===
+
+=== 2025-08-18 17:21:51 — Синхронизация начата ===
+2025/08/18 17:21:52 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 17:21:52 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 17:21:52 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 17:21:52 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 17:21:52 INFO  : Copying Path2 files to Path1
+2025/08/18 17:21:52 INFO  : - [34mPath2[0m    [35mResync is copying files to[0m         - [36mPath1[0m
+2025/08/18 17:21:53 INFO  : There was nothing to transfer
+2025/08/18 17:21:53 INFO  : - [36mPath1[0m    [35mResync is copying files to[0m         - [36mPath2[0m
+2025/08/18 17:21:55 INFO  : NNNN.md: Copied (new)
+2025/08/18 17:21:55 INFO  : Resync updating listings
+2025/08/18 17:21:55 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 17:21:55 INFO  : [32mBisync successful[0m
+2025/08/18 17:21:55 INFO  : 
+Transferred:   	          6 B / 6 B, 100%, 2 B/s, ETA 0s
+Checks:                40 / 40, 100%, Listed 120
+Transferred:            1 / 1, 100%
+Elapsed time:         3.5s
+
+=== 2025-08-18 17:21:55 — Синхронизация завершена успешно ===
+
+=== 2025-08-18 17:42:34 — Синхронизация начата ===
+2025/08/18 17:42:35 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 17:42:35 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 17:42:35 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 17:42:35 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 17:42:35 INFO  : Copying Path2 files to Path1
+2025/08/18 17:42:35 INFO  : - [34mPath2[0m    [35mResync is copying files to[0m         - [36mPath1[0m
+2025/08/18 17:42:36 INFO  : There was nothing to transfer
+2025/08/18 17:42:36 INFO  : - [36mPath1[0m    [35mResync is copying files to[0m         - [36mPath2[0m
+2025/08/18 17:42:39 INFO  : NNNN.md: Copied (replaced existing)
+2025/08/18 17:42:39 INFO  : Resync updating listings
+2025/08/18 17:42:39 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 17:42:39 INFO  : [32mBisync successful[0m
+2025/08/18 17:42:39 INFO  : 
+Transferred:   	          6 B / 6 B, 100%, 2 B/s, ETA 0s
+Checks:                42 / 42, 100%, Listed 122
+Transferred:            1 / 1, 100%
+Elapsed time:         3.7s
+
+=== 2025-08-18 17:42:39 — Синхронизация завершена успешно ===
+
+=== 2025-08-18 17:45:57 — Синхронизация начата ===
+2025/08/18 17:45:59 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 17:45:59 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 17:45:59 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 17:45:59 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 17:45:59 INFO  : Copying Path2 files to Path1
+2025/08/18 17:45:59 INFO  : - [34mPath2[0m    [35mResync is copying files to[0m         - [36mPath1[0m
+2025/08/18 17:46:00 INFO  : There was nothing to transfer
+2025/08/18 17:46:00 INFO  : - [36mPath1[0m    [35mResync is copying files to[0m         - [36mPath2[0m
+2025/08/18 17:46:02 INFO  : .obsidian/app.json: Updated modification time in destination
+2025/08/18 17:46:02 INFO  : .obsidian/core-plugins.json: Updated modification time in destination
+2025/08/18 17:46:02 INFO  : .obsidian/appearance.json: Updated modification time in destination
+2025/08/18 17:46:02 INFO  : NNNN.md: Copied (replaced existing)
+2025/08/18 17:46:02 INFO  : Resync updating listings
+2025/08/18 17:46:02 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 17:46:02 INFO  : [32mBisync successful[0m
+2025/08/18 17:46:02 INFO  : 
+Transferred:   	          6 B / 6 B, 100%, 1 B/s, ETA 0s
+Checks:                42 / 42, 100%, Listed 122
+Transferred:            1 / 1, 100%
+Elapsed time:         3.3s
+
+=== 2025-08-18 17:46:02 — Синхронизация завершена успешно ===
+
+=== 2025-08-18 17:49:31 — Синхронизация начата ===
+2025/08/18 17:49:32 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 17:49:32 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 17:49:32 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 17:49:32 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 17:49:32 INFO  : Copying Path2 files to Path1
+2025/08/18 17:49:32 INFO  : - [34mPath2[0m    [35mResync is copying files to[0m         - [36mPath1[0m
+2025/08/18 17:49:34 INFO  : There was nothing to transfer
+2025/08/18 17:49:34 INFO  : - [36mPath1[0m    [35mResync is copying files to[0m         - [36mPath2[0m
+2025/08/18 17:49:35 INFO  : .obsidian/appearance.json: Updated modification time in destination
+2025/08/18 17:49:35 INFO  : .obsidian/core-plugins.json: Updated modification time in destination
+2025/08/18 17:49:35 INFO  : .obsidian/app.json: Updated modification time in destination
+2025/08/18 17:49:36 INFO  : NNNN.md: Copied (replaced existing)
+2025/08/18 17:49:36 INFO  : Resync updating listings
+2025/08/18 17:49:36 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 17:49:36 INFO  : [32mBisync successful[0m
+2025/08/18 17:49:36 INFO  : 
+Transferred:   	          9 B / 9 B, 100%, 2 B/s, ETA 0s
+Checks:                42 / 42, 100%, Listed 122
+Transferred:            1 / 1, 100%
+Elapsed time:         3.4s
+
+=== 2025-08-18 17:49:36 — Синхронизация завершена успешно ===
+
+=== 2025-08-18 17:59:40 — Синхронизация начата ===
+2025/08/18 17:59:42 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 17:59:42 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 17:59:42 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 17:59:42 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 17:59:42 INFO  : Building Path1 and Path2 listings
+2025/08/18 17:59:43 INFO  : Path1 checking for diffs
+2025/08/18 17:59:43 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/app.json[0m
+2025/08/18 17:59:43 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/appearance.json[0m
+2025/08/18 17:59:43 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/core-plugins.json[0m
+2025/08/18 17:59:43 INFO  : Path1:    3 changes: [32m   0 new[0m, [33m   3 modified[0m, [31m   0 deleted[0m
+2025/08/18 17:59:43 INFO  : ([33mModified[0m: [36m   3 newer[0m, [34m   0 older[0m)
+2025/08/18 17:59:43 INFO  : Path2 checking for diffs
+2025/08/18 17:59:43 INFO  : Applying changes
+2025/08/18 17:59:43 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/.obsidian/app.json[0m
+2025/08/18 17:59:43 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/.obsidian/appearance.json[0m
+2025/08/18 17:59:43 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/.obsidian/core-plugins.json[0m
+2025/08/18 17:59:43 INFO  : - [36mPath1[0m    [35mDo queued copies to[0m                - [36mPath2[0m
+2025/08/18 17:59:45 INFO  : .obsidian/appearance.json: Updated modification time in destination
+2025/08/18 17:59:45 INFO  : .obsidian/app.json: Updated modification time in destination
+2025/08/18 17:59:45 INFO  : .obsidian/core-plugins.json: Updated modification time in destination
+2025/08/18 17:59:45 INFO  : There was nothing to transfer
+2025/08/18 17:59:45 INFO  : Updating listings
+2025/08/18 17:59:45 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 17:59:45 INFO  : [32mBisync successful[0m
+2025/08/18 17:59:45 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                63 / 63, 100%, Listed 76
+Elapsed time:         2.5s
+
+=== 2025-08-18 17:59:45 — Синхронизация завершена успешно ===
+
+=== 2025-08-18 18:00:04 — Синхронизация начата ===
+2025/08/18 18:00:07 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 18:00:07 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 18:00:07 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 18:00:07 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:00:07 INFO  : Building Path1 and Path2 listings
+2025/08/18 18:00:40 INFO  : Path1 checking for diffs
+2025/08/18 18:00:40 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/app.json[0m
+2025/08/18 18:00:40 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/appearance.json[0m
+2025/08/18 18:00:40 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/core-plugins.json[0m
+2025/08/18 18:00:40 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35msize (larger)[0m, [35mtime (newer)[0m[0m[0m - [36mNNNN.md[0m
+2025/08/18 18:00:40 INFO  : Path1:    4 changes: [32m   0 new[0m, [33m   4 modified[0m, [31m   0 deleted[0m
+2025/08/18 18:00:40 INFO  : ([33mModified[0m: [36m   4 newer[0m, [34m   0 older[0m, [36m   1 larger[0m, [34m   0 smaller[0m)
+2025/08/18 18:00:40 INFO  : Path2 checking for diffs
+2025/08/18 18:00:40 INFO  : Applying changes
+2025/08/18 18:00:40 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/.obsidian/app.json[0m
+2025/08/18 18:00:40 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/.obsidian/appearance.json[0m
+2025/08/18 18:00:40 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/.obsidian/core-plugins.json[0m
+2025/08/18 18:00:40 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/NNNN.md[0m
+2025/08/18 18:00:40 INFO  : - [36mPath1[0m    [35mDo queued copies to[0m                - [36mPath2[0m
+2025/08/18 18:00:41 INFO  : .obsidian/appearance.json: Updated modification time in destination
+2025/08/18 18:00:41 INFO  : .obsidian/core-plugins.json: Updated modification time in destination
+2025/08/18 18:00:41 INFO  : .obsidian/app.json: Updated modification time in destination
+2025/08/18 18:00:41 INFO  : NNNN.md: Copied (replaced existing)
+2025/08/18 18:00:41 INFO  : Updating listings
+2025/08/18 18:00:41 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:00:41 INFO  : [32mBisync successful[0m
+2025/08/18 18:00:41 INFO  : 
+Transferred:   	         11 B / 11 B, 100%, 0 B/s, ETA 0s
+Checks:                64 / 64, 100%, Listed 77
+Transferred:            1 / 1, 100%
+Elapsed time:        34.7s
+
+=== 2025-08-18 18:00:41 — Синхронизация завершена успешно ===
+
+=== 2025-08-18 18:02:02 — Синхронизация начата ===
+2025/08/18 18:02:04 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 18:02:04 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 18:02:04 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 18:02:04 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:02:04 INFO  : Building Path1 and Path2 listings
+2025/08/18 18:02:05 INFO  : Path1 checking for diffs
+2025/08/18 18:02:05 INFO  : Path2 checking for diffs
+2025/08/18 18:02:05 INFO  : - [34mPath2[0m    [35m[33mFile changed: [35msize (larger)[0m, [35mtime (newer)[0m[0m[0m - [36mNNNN.md[0m
+2025/08/18 18:02:05 INFO  : Path2:    1 changes: [32m   0 new[0m, [33m   1 modified[0m, [31m   0 deleted[0m
+2025/08/18 18:02:05 INFO  : ([33mModified[0m: [36m   1 newer[0m, [34m   0 older[0m, [36m   1 larger[0m, [34m   0 smaller[0m)
+2025/08/18 18:02:05 INFO  : Applying changes
+2025/08/18 18:02:05 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/NNNN.md[0m
+2025/08/18 18:02:05 INFO  : - [34mPath2[0m    [35mDo queued copies to[0m                - [36mPath1[0m
+2025/08/18 18:02:06 INFO  : NNNN.md: Copied (replaced existing)
+2025/08/18 18:02:06 INFO  : Updating listings
+2025/08/18 18:02:06 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:02:06 INFO  : [32mBisync successful[0m
+2025/08/18 18:02:06 INFO  : 
+Transferred:   	         13 B / 13 B, 100%, 0 B/s, ETA -
+Checks:                61 / 61, 100%, Listed 69
+Transferred:            1 / 1, 100%
+Elapsed time:         2.7s
+
+=== 2025-08-18 18:02:06 — Синхронизация завершена успешно ===
+
+=== 2025-08-18 18:02:37 — Синхронизация начата ===
+2025/08/18 18:02:39 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 18:02:39 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 18:02:39 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 18:02:39 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:02:39 INFO  : Building Path1 and Path2 listings
+2025/08/18 18:02:40 INFO  : Path1 checking for diffs
+2025/08/18 18:02:40 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35msize (larger)[0m, [35mtime (newer)[0m[0m[0m - [36mNNNN.md[0m
+2025/08/18 18:02:40 INFO  : Path1:    1 changes: [32m   0 new[0m, [33m   1 modified[0m, [31m   0 deleted[0m
+2025/08/18 18:02:40 INFO  : ([33mModified[0m: [36m   1 newer[0m, [34m   0 older[0m, [36m   1 larger[0m, [34m   0 smaller[0m)
+2025/08/18 18:02:40 INFO  : Path2 checking for diffs
+2025/08/18 18:02:40 INFO  : Applying changes
+2025/08/18 18:02:40 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/NNNN.md[0m
+2025/08/18 18:02:40 INFO  : - [36mPath1[0m    [35mDo queued copies to[0m                - [36mPath2[0m
+2025/08/18 18:02:42 INFO  : NNNN.md: Copied (replaced existing)
+2025/08/18 18:02:42 INFO  : Updating listings
+2025/08/18 18:02:42 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:02:42 INFO  : [32mBisync successful[0m
+2025/08/18 18:02:42 INFO  : 
+Transferred:   	         28 B / 28 B, 100%, 9 B/s, ETA 0s
+Checks:                61 / 61, 100%, Listed 79
+Transferred:            1 / 1, 100%
+Elapsed time:         3.3s
+
+=== 2025-08-18 18:02:42 — Синхронизация завершена успешно ===
+
+=== 2025-08-18 18:03:11 — Синхронизация начата ===
+2025/08/18 18:03:45 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 18:03:45 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 18:03:45 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 18:03:45 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:03:45 INFO  : Building Path1 and Path2 listings
+2025/08/18 18:03:46 INFO  : Path1 checking for diffs
+2025/08/18 18:03:46 INFO  : Path2 checking for diffs
+2025/08/18 18:03:46 INFO  : - [34mPath2[0m    [35m[31mFile was deleted[0m[0m          - [36mNNNN.md[0m
+2025/08/18 18:03:46 INFO  : Path2:    1 changes: [32m   0 new[0m, [33m   0 modified[0m, [31m   1 deleted[0m
+2025/08/18 18:03:46 INFO  : Applying changes
+2025/08/18 18:03:46 INFO  : - [36mPath1[0m    [35m[31mQueue delete[0m[0m              - [36m/home/dimitri/Documents/obsidian/NNNN.md[0m
+2025/08/18 18:03:46 INFO  : - [34mPath2[0m    [35mDo queued copies to[0m                - [36mPath1[0m
+2025/08/18 18:03:47 INFO  : NNNN.md: Deleted
+2025/08/18 18:03:47 INFO  : There was nothing to transfer
+2025/08/18 18:03:47 INFO  : Updating listings
+2025/08/18 18:03:47 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:03:47 INFO  : [32mBisync successful[0m
+2025/08/18 18:03:47 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                60 / 60, 100%, Listed 68
+Deleted:                1 (files), 0 (dirs), 28 B (freed)
+Elapsed time:         1.4s
+
+=== 2025-08-18 18:03:47 — Синхронизация завершена успешно ===
+
+=== 2025-08-18 18:24:31 — Sync started ===
+2025-08-18 18:24:31 — Running in initialization mode (--resync)
+2025/08/18 18:24:32 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 18:24:32 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 18:24:32 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 18:24:32 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:24:32 INFO  : Copying Path2 files to Path1
+2025/08/18 18:24:32 INFO  : - [34mPath2[0m    [35mResync is copying files to[0m         - [36mPath1[0m
+2025/08/18 18:24:32 INFO  : ADM: Made directory with metadata (mtime=2025-08-14T12:35:02.441Z)
+2025/08/18 18:24:32 INFO  : GIT: Made directory with metadata (mtime=2025-08-14T12:35:00.112Z)
+2025/08/18 18:24:32 INFO  : LARAVEL: Made directory with metadata (mtime=2025-08-14T07:01:40.719Z)
+2025/08/18 18:24:32 INFO  : LINUX: Made directory with metadata (mtime=2025-08-14T07:01:41.69Z)
+2025/08/18 18:24:32 INFO  : PRESTASHOP: Made directory with metadata (mtime=2025-08-14T07:00:59.469Z)
+2025/08/18 18:24:32 INFO  : SECURITY: Made directory with metadata (mtime=2025-08-14T12:39:25.723Z)
+2025/08/18 18:24:32 INFO  : SECURITY/HACK: Made directory with metadata (mtime=2025-08-14T12:39:26.647Z)
+2025/08/18 18:24:33 INFO  : ADM/IA - requests: Made directory with metadata (mtime=2025-08-14T12:35:03.315Z)
+2025/08/18 18:24:33 INFO  : tmp LOCAM ERRORS.md: Copied (new)
+2025/08/18 18:24:33 INFO  : JAVASCRIPT SCRIPTS.md: Copied (new)
+2025/08/18 18:24:33 INFO  : GIT/Git Commit template.md: Copied (new)
+2025/08/18 18:24:34 INFO  : GIT/Return to last git commit state.md: Copied (new)
+2025/08/18 18:24:34 INFO  : SECURITY/GPG.md: Copied (new)
+2025/08/18 18:24:34 INFO  : LARAVEL/HTTPS Migration.md: Copied (new)
+2025/08/18 18:24:34 INFO  : LARAVEL/Access Rate Limit by minut.md: Copied (new)
+2025/08/18 18:24:35 INFO  : PRESTASHOP/Speed improvement.md: Copied (new)
+2025/08/18 18:24:35 INFO  : SECURITY/HACK/HACKED SITE - Clean Up.md: Copied (new)
+2025/08/18 18:24:35 INFO  : PRESTASHOP/PRESTASHOP SCRIPTS.md: Copied (new)
+2025/08/18 18:24:36 INFO  : SECURITY/HACK/Site antivirus.md: Copied (new)
+2025/08/18 18:24:36 INFO  : LINUX/ERROR - Git not clone, pull....md: Copied (new)
+2025/08/18 18:24:36 INFO  : ADM/IA - requests/Actu.md: Copied (new)
+2025/08/18 18:24:36 INFO  : ADM/IA - requests/Adm 4 - Changelog.md: Copied (new)
+2025/08/18 18:24:37 INFO  : ADM/IA - requests/Audio Vidéo Mobile.md: Copied (new)
+2025/08/18 18:24:37 INFO  : ADM/IA - requests/Context Axomedia.md: Copied (new)
+2025/08/18 18:24:37 INFO  : ADM/IA - requests: Set directory modification time (using SetModTime)
+2025/08/18 18:24:37 INFO  : SECURITY/HACK: Set directory modification time (using SetModTime)
+2025/08/18 18:24:37 INFO  : SECURITY: Set directory modification time (using SetModTime)
+2025/08/18 18:24:37 INFO  : LINUX: Set directory modification time (using SetModTime)
+2025/08/18 18:24:37 INFO  : LARAVEL: Set directory modification time (using SetModTime)
+2025/08/18 18:24:37 INFO  : GIT: Set directory modification time (using SetModTime)
+2025/08/18 18:24:37 INFO  : PRESTASHOP: Set directory modification time (using SetModTime)
+2025/08/18 18:24:37 INFO  : ADM: Set directory modification time (using SetModTime)
+2025/08/18 18:24:37 INFO  : - [36mPath1[0m    [35mResync is copying files to[0m         - [36mPath2[0m
+2025/08/18 18:24:38 INFO  : Resync updating listings
+2025/08/18 18:24:38 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:24:38 INFO  : [32mBisync successful[0m
+2025/08/18 18:24:38 INFO  : 
+Transferred:   	   31.216 KiB / 31.216 KiB, 100%, 4.431 KiB/s, ETA 0s
+Checks:                24 / 24, 100%, Listed 94
+Transferred:           16 / 16, 100%
+Elapsed time:         5.9s
+
+=== 2025-08-18 18:24:38 — Sync finished successfully ===
+
+=== 2025-08-18 18:25:43 — Sync started ===
+2025/08/18 18:25:44 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 18:25:44 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 18:25:44 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 18:25:44 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:25:44 INFO  : Building Path1 and Path2 listings
+2025/08/18 18:25:46 INFO  : Path1 checking for diffs
+2025/08/18 18:25:46 INFO  : - [36mPath1[0m    [35m[32mFile is new[0m[0m               - [36m11111.md[0m
+2025/08/18 18:25:46 INFO  : Path1:    1 changes: [32m   1 new[0m, [33m   0 modified[0m, [31m   0 deleted[0m
+2025/08/18 18:25:46 INFO  : Path2 checking for diffs
+2025/08/18 18:25:46 INFO  : Applying changes
+2025/08/18 18:25:46 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/11111.md[0m
+2025/08/18 18:25:46 INFO  : - [36mPath1[0m    [35mDo queued copies to[0m                - [36mPath2[0m
+2025/08/18 18:25:48 INFO  : 11111.md: Copied (new)
+2025/08/18 18:25:48 INFO  : Updating listings
+2025/08/18 18:25:48 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:25:48 INFO  : [32mBisync successful[0m
+2025/08/18 18:25:48 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                59 / 59, 100%, Listed 68
+Transferred:            1 / 1, 100%
+Elapsed time:         3.2s
+
+=== 2025-08-18 18:25:48 — Sync finished successfully ===
+
+=== 2025-08-18 18:26:25 — Sync started ===
+2025/08/18 18:26:26 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 18:26:26 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 18:26:26 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 18:26:26 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:26:26 INFO  : Building Path1 and Path2 listings
+2025/08/18 18:26:27 INFO  : Path1 checking for diffs
+2025/08/18 18:26:27 INFO  : Path2 checking for diffs
+2025/08/18 18:26:27 INFO  : - [34mPath2[0m    [35m[33mFile changed: [35msize (larger)[0m, [35mtime (newer)[0m[0m[0m - [36m11111.md[0m
+2025/08/18 18:26:27 INFO  : Path2:    1 changes: [32m   0 new[0m, [33m   1 modified[0m, [31m   0 deleted[0m
+2025/08/18 18:26:27 INFO  : ([33mModified[0m: [36m   1 newer[0m, [34m   0 older[0m, [36m   1 larger[0m, [34m   0 smaller[0m)
+2025/08/18 18:26:27 INFO  : Applying changes
+2025/08/18 18:26:27 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/11111.md[0m
+2025/08/18 18:26:27 INFO  : - [34mPath2[0m    [35mDo queued copies to[0m                - [36mPath1[0m
+2025/08/18 18:26:29 INFO  : 11111.md: Copied (replaced existing)
+2025/08/18 18:26:29 INFO  : Updating listings
+2025/08/18 18:26:29 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:26:29 INFO  : [32mBisync successful[0m
+2025/08/18 18:26:29 INFO  : 
+Transferred:   	         15 B / 15 B, 100%, 0 B/s, ETA -
+Checks:                61 / 61, 100%, Listed 79
+Transferred:            1 / 1, 100%
+Elapsed time:         2.8s
+
+=== 2025-08-18 18:26:29 — Sync finished successfully ===
+
+=== 2025-08-18 18:27:09 — Sync started ===
+2025/08/18 18:27:44 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 18:27:44 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 18:27:44 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 18:27:44 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:27:44 INFO  : Building Path1 and Path2 listings
+2025/08/18 18:27:45 INFO  : Path1 checking for diffs
+2025/08/18 18:27:45 INFO  : Path2 checking for diffs
+2025/08/18 18:27:45 INFO  : - [34mPath2[0m    [35m[33mFile changed: [35msize (larger)[0m, [35mtime (newer)[0m[0m[0m - [36m11111.md[0m
+2025/08/18 18:27:45 INFO  : Path2:    1 changes: [32m   0 new[0m, [33m   1 modified[0m, [31m   0 deleted[0m
+2025/08/18 18:27:45 INFO  : ([33mModified[0m: [36m   1 newer[0m, [34m   0 older[0m, [36m   1 larger[0m, [34m   0 smaller[0m)
+2025/08/18 18:27:45 INFO  : Applying changes
+2025/08/18 18:27:45 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/11111.md[0m
+2025/08/18 18:27:45 INFO  : - [34mPath2[0m    [35mDo queued copies to[0m                - [36mPath1[0m
+2025/08/18 18:27:46 INFO  : 11111.md: Copied (replaced existing)
+2025/08/18 18:27:46 INFO  : Updating listings
+2025/08/18 18:27:46 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:27:46 INFO  : [32mBisync successful[0m
+2025/08/18 18:27:46 INFO  : 
+Transferred:   	         21 B / 21 B, 100%, 0 B/s, ETA -
+Checks:                61 / 61, 100%, Listed 69
+Transferred:            1 / 1, 100%
+Elapsed time:         2.0s
+
+=== 2025-08-18 18:27:46 — Sync finished successfully ===
+
+=== 2025-08-18 18:28:23 — Sync started ===
+2025/08/18 18:28:26 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 18:28:26 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 18:28:26 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 18:28:26 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:28:26 INFO  : Building Path1 and Path2 listings
+2025/08/18 18:28:27 INFO  : Path1 checking for diffs
+2025/08/18 18:28:27 INFO  : Path2 checking for diffs
+2025/08/18 18:28:27 INFO  : - [34mPath2[0m    [35m[33mFile changed: [35msize (larger)[0m, [35mtime (newer)[0m[0m[0m - [36m11111.md[0m
+2025/08/18 18:28:27 INFO  : Path2:    1 changes: [32m   0 new[0m, [33m   1 modified[0m, [31m   0 deleted[0m
+2025/08/18 18:28:27 INFO  : ([33mModified[0m: [36m   1 newer[0m, [34m   0 older[0m, [36m   1 larger[0m, [34m   0 smaller[0m)
+2025/08/18 18:28:27 INFO  : Applying changes
+2025/08/18 18:28:27 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/11111.md[0m
+2025/08/18 18:28:27 INFO  : - [34mPath2[0m    [35mDo queued copies to[0m                - [36mPath1[0m
+2025/08/18 18:28:29 INFO  : 11111.md: Copied (replaced existing)
+2025/08/18 18:28:29 INFO  : Updating listings
+2025/08/18 18:28:29 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:28:29 INFO  : [32mBisync successful[0m
+2025/08/18 18:28:29 INFO  : 
+Transferred:   	         27 B / 27 B, 100%, 0 B/s, ETA -
+Checks:                61 / 61, 100%, Listed 69
+Transferred:            1 / 1, 100%
+Elapsed time:         2.7s
+
+=== 2025-08-18 18:28:29 — Sync finished successfully ===
+
+=== 2025-08-18 18:29:00 — Sync started ===
+2025/08/18 18:29:02 NOTICE: bisync is IN BETA. Don't use in production!
+2025/08/18 18:29:02 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/18 18:29:02 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/18 18:29:02 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:29:02 INFO  : Building Path1 and Path2 listings
+2025/08/18 18:29:03 INFO  : Path1 checking for diffs
+2025/08/18 18:29:03 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35msize (larger)[0m, [35mtime (newer)[0m[0m[0m - [36m11111.md[0m
+2025/08/18 18:29:03 INFO  : Path1:    1 changes: [32m   0 new[0m, [33m   1 modified[0m, [31m   0 deleted[0m
+2025/08/18 18:29:03 INFO  : ([33mModified[0m: [36m   1 newer[0m, [34m   0 older[0m, [36m   1 larger[0m, [34m   0 smaller[0m)
+2025/08/18 18:29:03 INFO  : Path2 checking for diffs
+2025/08/18 18:29:03 INFO  : Applying changes
+2025/08/18 18:29:03 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/11111.md[0m
+2025/08/18 18:29:03 INFO  : - [36mPath1[0m    [35mDo queued copies to[0m                - [36mPath2[0m
+2025/08/18 18:29:05 INFO  : 11111.md: Copied (replaced existing)
+2025/08/18 18:29:05 INFO  : Updating listings
+2025/08/18 18:29:05 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/18 18:29:05 INFO  : [32mBisync successful[0m
+2025/08/18 18:29:05 INFO  : 
+Transferred:   	         29 B / 29 B, 100%, 9 B/s, ETA 0s
+Checks:                61 / 61, 100%, Listed 69
+Transferred:            1 / 1, 100%
+Elapsed time:         3.4s
+
+=== 2025-08-18 18:29:05 — Sync finished successfully ===
+
+=== 2025-08-29 11:11:58 — Sync started ===
+2025/08/29 11:11:59 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/29 11:11:59 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/29 11:11:59 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/29 11:11:59 INFO  : Building Path1 and Path2 listings
+2025/08/29 11:12:00 INFO  : Path1 checking for diffs
+2025/08/29 11:12:00 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/app.json[0m
+2025/08/29 11:12:00 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/appearance.json[0m
+2025/08/29 11:12:00 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/core-plugins.json[0m
+2025/08/29 11:12:00 INFO  : Path1:    3 changes: [32m   0 new[0m, [33m   3 modified[0m, [31m   0 deleted[0m
+2025/08/29 11:12:00 INFO  : ([33mModified[0m: [36m   3 newer[0m, [34m   0 older[0m)
+2025/08/29 11:12:00 INFO  : Path2 checking for diffs
+2025/08/29 11:12:00 INFO  : - [34mPath2[0m    [35m[33mFile changed: [35msize (larger)[0m, [35mtime (newer)[0m[0m[0m - [36m.obsidian/app.json[0m
+2025/08/29 11:12:00 INFO  : - [34mPath2[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/appearance.json[0m
+2025/08/29 11:12:00 INFO  : - [34mPath2[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/core-plugins.json[0m
+2025/08/29 11:12:00 INFO  : - [34mPath2[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/graph.json[0m
+2025/08/29 11:12:00 INFO  : - [34mPath2[0m    [35m[31mFile was deleted[0m[0m          - [36m11111.md[0m
+2025/08/29 11:12:00 INFO  : - [34mPath2[0m    [35m[31mFile was deleted[0m[0m          - [36mSECURITY/HACK/HACKED SITE - Clean Up.md[0m
+2025/08/29 11:12:00 INFO  : - [34mPath2[0m    [35m[31mFile was deleted[0m[0m          - [36mSECURITY/HACK/Site antivirus.md[0m
+2025/08/29 11:12:00 INFO  : - [34mPath2[0m    [35m[32mFile is new[0m[0m               - [36mPRESTASHOP/CLI Install.md[0m
+2025/08/29 11:12:00 INFO  : - [34mPath2[0m    [35m[32mFile is new[0m[0m               - [36mSECURITY/HACK/Clean Up Hacked site.md[0m
+2025/08/29 11:12:00 INFO  : - [34mPath2[0m    [35m[32mFile is new[0m[0m               - [36mSECURITY/HACK/Logs.md[0m
+2025/08/29 11:12:00 INFO  : - [34mPath2[0m    [35m[32mFile is new[0m[0m               - [36mSECURITY/HACK/Site antivirus apps.md[0m
+2025/08/29 11:12:00 INFO  : - [34mPath2[0m    [35m[32mFile is new[0m[0m               - [36massets[0m
+2025/08/29 11:12:00 INFO  : - [34mPath2[0m    [35m[32mFile is new[0m[0m               - [36massets/images[0m
+2025/08/29 11:12:00 INFO  : - [34mPath2[0m    [35m[32mFile is new[0m[0m               - [36massets/images/cpanel_mesures.png[0m
+2025/08/29 11:12:00 INFO  : Path2:   14 changes: [32m   7 new[0m, [33m   4 modified[0m, [31m   3 deleted[0m
+2025/08/29 11:12:00 INFO  : ([33mModified[0m: [36m   4 newer[0m, [34m   0 older[0m, [36m   1 larger[0m, [34m   0 smaller[0m)
+2025/08/29 11:12:00 INFO  : Applying changes
+2025/08/29 11:12:00 INFO  : Checking potential conflicts...
+2025/08/29 11:12:01 NOTICE: Google drive root 'rclone/obsidian': 0 differences found
+2025/08/29 11:12:01 NOTICE: Google drive root 'rclone/obsidian': 2 matching files
+2025/08/29 11:12:01 INFO  : Finished checking the potential conflicts. %!s(<nil>)
+2025/08/29 11:12:01 NOTICE: - [34mWARNING[0m  [35mNew or changed in both paths[0m       - [36m.obsidian/app.json[0m
+2025/08/29 11:12:01 NOTICE: - [36mPath1[0m    [35mRenaming Path1 copy[0m                - [36m/home/dimitri/Documents/obsidian/.obsidian/app.json.conflict1[0m
+2025/08/29 11:12:01 INFO  : .obsidian/app.json: Moved (server-side) to: .obsidian/app.json.conflict1
+2025/08/29 11:12:01 NOTICE: - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/.obsidian/app.json.conflict1[0m
+2025/08/29 11:12:01 NOTICE: - [34mPath2[0m    [35mRenaming Path2 copy[0m                - [36mgdrive:rclone/obsidian/.obsidian/app.json.conflict2[0m
+2025/08/29 11:12:02 INFO  : .obsidian/app.json: Moved (server-side) to: .obsidian/app.json.conflict2
+2025/08/29 11:12:02 NOTICE: - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/.obsidian/app.json.conflict2[0m
+2025/08/29 11:12:02 NOTICE: - [34mWARNING[0m  [35mNew or changed in both paths[0m       - [36m.obsidian/appearance.json[0m
+2025/08/29 11:12:02 INFO  : .obsidian/appearance.json: Files are equal but will copy anyway to update modtime (will not rename)
+2025/08/29 11:12:02 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/.obsidian/appearance.json[0m
+2025/08/29 11:12:02 NOTICE: - [34mWARNING[0m  [35mNew or changed in both paths[0m       - [36m.obsidian/core-plugins.json[0m
+2025/08/29 11:12:02 INFO  : .obsidian/core-plugins.json: Files are equal but will copy anyway to update modtime (will not rename)
+2025/08/29 11:12:02 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/.obsidian/core-plugins.json[0m
+2025/08/29 11:12:02 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/.obsidian/graph.json[0m
+2025/08/29 11:12:02 INFO  : - [36mPath1[0m    [35m[31mQueue delete[0m[0m              - [36m/home/dimitri/Documents/obsidian/11111.md[0m
+2025/08/29 11:12:02 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/PRESTASHOP/CLI Install.md[0m
+2025/08/29 11:12:02 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/SECURITY/HACK/Clean Up Hacked site.md[0m
+2025/08/29 11:12:02 INFO  : - [36mPath1[0m    [35m[31mQueue delete[0m[0m              - [36m/home/dimitri/Documents/obsidian/SECURITY/HACK/HACKED SITE - Clean Up.md[0m
+2025/08/29 11:12:02 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/SECURITY/HACK/Logs.md[0m
+2025/08/29 11:12:02 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/SECURITY/HACK/Site antivirus apps.md[0m
+2025/08/29 11:12:02 INFO  : - [36mPath1[0m    [35m[31mQueue delete[0m[0m              - [36m/home/dimitri/Documents/obsidian/SECURITY/HACK/Site antivirus.md[0m
+2025/08/29 11:12:02 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/assets[0m
+2025/08/29 11:12:02 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/assets/images[0m
+2025/08/29 11:12:02 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/assets/images/cpanel_mesures.png[0m
+2025/08/29 11:12:02 INFO  : - [34mPath2[0m    [35mDo queued copies to[0m                - [36mPath1[0m
+2025/08/29 11:12:02 INFO  : .obsidian: Set directory modification time (using SetModTime)
+2025/08/29 11:12:02 INFO  : assets: Made directory with metadata (mtime=2025-08-27T08:01:55.41Z)
+2025/08/29 11:12:03 INFO  : assets/images: Made directory with metadata (mtime=2025-08-27T08:01:56.179Z)
+2025/08/29 11:12:03 INFO  : .obsidian/graph.json: Updated modification time in destination
+2025/08/29 11:12:03 INFO  : PRESTASHOP/CLI Install.md: Copied (new)
+2025/08/29 11:12:04 INFO  : .obsidian/app.json.conflict2: Copied (new)
+2025/08/29 11:12:04 INFO  : SECURITY/HACK/Clean Up Hacked site.md: Copied (new)
+2025/08/29 11:12:04 INFO  : assets/images/cpanel_mesures.png: Copied (new)
+2025/08/29 11:12:05 INFO  : SECURITY/HACK/Logs.md: Copied (new)
+2025/08/29 11:12:24 INFO  : SECURITY/HACK/Site antivirus apps.md: Copied (new)
+2025/08/29 11:12:24 INFO  : 11111.md: Deleted
+2025/08/29 11:12:24 INFO  : SECURITY/HACK/HACKED SITE - Clean Up.md: Deleted
+2025/08/29 11:12:24 INFO  : SECURITY/HACK/Site antivirus.md: Deleted
+2025/08/29 11:12:24 INFO  : assets/images: Set directory modification time (using SetModTime)
+2025/08/29 11:12:24 INFO  : SECURITY/HACK: Set directory modification time (using SetModTime)
+2025/08/29 11:12:24 INFO  : assets: Set directory modification time (using SetModTime)
+2025/08/29 11:12:24 INFO  : .obsidian: Set directory modification time (using SetModTime)
+2025/08/29 11:12:24 INFO  : PRESTASHOP: Set directory modification time (using SetModTime)
+2025/08/29 11:12:24 INFO  : SECURITY: Set directory modification time (using SetModTime)
+2025/08/29 11:12:24 INFO  : assets: Making directory
+2025/08/29 11:12:24 INFO  : assets/images: Making directory
+2025/08/29 11:12:24 INFO  : - [36mPath1[0m    [35mDo queued copies to[0m                - [36mPath2[0m
+2025/08/29 11:12:41 INFO  : .obsidian/core-plugins.json: Updated modification time in destination
+2025/08/29 11:12:41 INFO  : .obsidian/appearance.json: Updated modification time in destination
+2025/08/29 11:12:42 INFO  : .obsidian/app.json.conflict1: Copied (new)
+2025/08/29 11:12:42 INFO  : Updating listings
+2025/08/29 11:12:42 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/29 11:12:42 INFO  : [32mBisync successful[0m
+2025/08/29 11:12:42 INFO  : 
+Transferred:   	   23.516 KiB / 23.516 KiB, 100%, 1.016 KiB/s, ETA 0s
+Checks:                72 / 72, 100%, Listed 152
+Deleted:                3 (files), 0 (dirs), 4.309 KiB (freed)
+Renamed:                2
+Transferred:            9 / 9, 100%
+Server Side Moves:      2 @ 374 B
+Elapsed time:        42.6s
+
+=== 2025-08-29 11:12:42 — Sync finished successfully ===
+
+=== 2025-08-29 15:21:37 — Sync started ===
+2025/08/29 15:21:38 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/29 15:21:38 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/29 15:21:38 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/29 15:21:38 INFO  : Building Path1 and Path2 listings
+2025/08/29 15:21:39 INFO  : Path1 checking for diffs
+2025/08/29 15:21:39 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/appearance.json[0m
+2025/08/29 15:21:39 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35msize (larger)[0m, [35mtime (newer)[0m[0m[0m - [36m.obsidian/core-plugins.json[0m
+2025/08/29 15:21:39 INFO  : - [36mPath1[0m    [35m[32mFile is new[0m[0m               - [36m.obsidian/app.json[0m
+2025/08/29 15:21:39 INFO  : - [36mPath1[0m    [35m[32mFile is new[0m[0m               - [36mLINUX/Battery.md[0m
+2025/08/29 15:21:39 INFO  : Path1:    4 changes: [32m   2 new[0m, [33m   2 modified[0m, [31m   0 deleted[0m
+2025/08/29 15:21:39 INFO  : ([33mModified[0m: [36m   2 newer[0m, [34m   0 older[0m, [36m   1 larger[0m, [34m   0 smaller[0m)
+2025/08/29 15:21:39 INFO  : Path2 checking for diffs
+2025/08/29 15:21:39 INFO  : Applying changes
+2025/08/29 15:21:39 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/.obsidian/app.json[0m
+2025/08/29 15:21:39 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/.obsidian/appearance.json[0m
+2025/08/29 15:21:39 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/.obsidian/core-plugins.json[0m
+2025/08/29 15:21:39 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/LINUX/Battery.md[0m
+2025/08/29 15:21:39 INFO  : - [36mPath1[0m    [35mDo queued copies to[0m                - [36mPath2[0m
+2025/08/29 15:21:40 INFO  : .obsidian: Set directory modification time (using SetModTime)
+2025/08/29 15:21:41 INFO  : LINUX: Set directory modification time (using SetModTime)
+2025/08/29 15:21:42 INFO  : .obsidian/appearance.json: Updated modification time in destination
+2025/08/29 15:21:42 INFO  : .obsidian/core-plugins.json: Copied (replaced existing)
+2025/08/29 15:21:43 INFO  : LINUX/Battery.md: Copied (new)
+2025/08/29 15:21:43 INFO  : .obsidian/app.json: Copied (new)
+2025/08/29 15:21:43 INFO  : Updating listings
+2025/08/29 15:21:43 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/29 15:21:43 INFO  : [32mBisync successful[0m
+2025/08/29 15:21:43 INFO  : 
+Transferred:   	        763 B / 763 B, 100%, 190 B/s, ETA 0s
+Checks:                74 / 74, 100%, Listed 102
+Transferred:            3 / 3, 100%
+Elapsed time:         4.8s
+
+=== 2025-08-29 15:21:43 — Sync finished successfully ===
+
+=== 2025-08-29 15:40:23 — Sync started ===
+2025/08/29 15:40:27 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/29 15:40:27 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/29 15:40:27 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/29 15:40:27 INFO  : Building Path1 and Path2 listings
+2025/08/29 15:40:28 INFO  : Path1 checking for diffs
+2025/08/29 15:40:28 INFO  : - [36mPath1[0m    [35m[32mFile is new[0m[0m               - [36mLINUX/ToDo in Arch.md[0m
+2025/08/29 15:40:28 INFO  : Path1:    1 changes: [32m   1 new[0m, [33m   0 modified[0m, [31m   0 deleted[0m
+2025/08/29 15:40:28 INFO  : Path2 checking for diffs
+2025/08/29 15:40:28 INFO  : Applying changes
+2025/08/29 15:40:28 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/LINUX/ToDo in Arch.md[0m
+2025/08/29 15:40:28 INFO  : - [36mPath1[0m    [35mDo queued copies to[0m                - [36mPath2[0m
+2025/08/29 15:40:28 INFO  : LINUX: Set directory modification time (using SetModTime)
+2025/08/29 15:40:31 INFO  : LINUX/ToDo in Arch.md: Copied (new)
+2025/08/29 15:40:31 INFO  : Updating listings
+2025/08/29 15:40:31 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/29 15:40:31 INFO  : [32mBisync successful[0m
+2025/08/29 15:40:31 INFO  : 
+Transferred:   	         80 B / 80 B, 100%, 19 B/s, ETA 0s
+Checks:                75 / 75, 100%, Listed 97
+Transferred:            1 / 1, 100%
+Elapsed time:         4.0s
+
+=== 2025-08-29 15:40:31 — Sync finished successfully ===
+
+=== 2025-08-29 15:55:07 — Sync started ===
+2025/08/29 15:55:41 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/08/29 15:55:41 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/08/29 15:55:41 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/08/29 15:55:41 INFO  : Building Path1 and Path2 listings
+2025/08/29 15:55:43 INFO  : Path1 checking for diffs
+2025/08/29 15:55:43 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35msize (larger)[0m, [35mtime (newer)[0m[0m[0m - [36mLINUX/ToDo in Arch.md[0m
+2025/08/29 15:55:43 INFO  : Path1:    1 changes: [32m   0 new[0m, [33m   1 modified[0m, [31m   0 deleted[0m
+2025/08/29 15:55:43 INFO  : ([33mModified[0m: [36m   1 newer[0m, [34m   0 older[0m, [36m   1 larger[0m, [34m   0 smaller[0m)
+2025/08/29 15:55:43 INFO  : Path2 checking for diffs
+2025/08/29 15:55:43 INFO  : Applying changes
+2025/08/29 15:55:43 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/LINUX/ToDo in Arch.md[0m
+2025/08/29 15:55:43 INFO  : - [36mPath1[0m    [35mDo queued copies to[0m                - [36mPath2[0m
+2025/08/29 15:55:46 INFO  : LINUX/ToDo in Arch.md: Copied (replaced existing)
+2025/08/29 15:55:46 INFO  : Updating listings
+2025/08/29 15:55:46 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/08/29 15:55:46 INFO  : [32mBisync successful[0m
+2025/08/29 15:55:46 INFO  : 
+Transferred:   	        112 B / 112 B, 100%, 27 B/s, ETA 0s
+Checks:                77 / 77, 100%, Listed 89
+Transferred:            1 / 1, 100%
+Elapsed time:         4.5s
+
+=== 2025-08-29 15:55:46 — Sync finished successfully ===
+
+=== 2025-09-01 08:50:42 — Sync started ===
+2025/09/01 08:50:44 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/09/01 08:50:44 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/09/01 08:50:44 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/09/01 08:50:44 INFO  : Building Path1 and Path2 listings
+2025/09/01 08:50:45 INFO  : Path1 checking for diffs
+2025/09/01 08:50:45 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/app.json[0m
+2025/09/01 08:50:45 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/appearance.json[0m
+2025/09/01 08:50:45 INFO  : - [36mPath1[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/core-plugins.json[0m
+2025/09/01 08:50:45 INFO  : Path1:    3 changes: [32m   0 new[0m, [33m   3 modified[0m, [31m   0 deleted[0m
+2025/09/01 08:50:45 INFO  : ([33mModified[0m: [36m   3 newer[0m, [34m   0 older[0m)
+2025/09/01 08:50:45 INFO  : Path2 checking for diffs
+2025/09/01 08:50:45 INFO  : Applying changes
+2025/09/01 08:50:45 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/.obsidian/app.json[0m
+2025/09/01 08:50:45 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/.obsidian/appearance.json[0m
+2025/09/01 08:50:45 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/.obsidian/core-plugins.json[0m
+2025/09/01 08:50:45 INFO  : - [36mPath1[0m    [35mDo queued copies to[0m                - [36mPath2[0m
+2025/09/01 08:50:47 INFO  : .obsidian/core-plugins.json: Updated modification time in destination
+2025/09/01 08:50:47 INFO  : .obsidian/app.json: Updated modification time in destination
+2025/09/01 08:50:47 INFO  : .obsidian/appearance.json: Updated modification time in destination
+2025/09/01 08:50:47 INFO  : There was nothing to transfer
+2025/09/01 08:50:47 INFO  : Updating listings
+2025/09/01 08:50:47 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/09/01 08:50:47 INFO  : [32mBisync successful[0m
+2025/09/01 08:50:47 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                79 / 79, 100%, Listed 95
+Elapsed time:         2.7s
+
+=== 2025-09-01 08:50:47 — Sync finished successfully ===
+
+=== 2025-09-01 08:54:45 — Sync started ===
+2025/09/01 08:54:46 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/09/01 08:54:46 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/09/01 08:54:46 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/09/01 08:54:46 INFO  : Building Path1 and Path2 listings
+2025/09/01 08:54:48 INFO  : Path1 checking for diffs
+2025/09/01 08:54:48 INFO  : - [36mPath1[0m    [35m[32mFile is new[0m[0m               - [36mLINUX/Bluetooth-клавиатура.md[0m
+2025/09/01 08:54:48 INFO  : Path1:    1 changes: [32m   1 new[0m, [33m   0 modified[0m, [31m   0 deleted[0m
+2025/09/01 08:54:48 INFO  : Path2 checking for diffs
+2025/09/01 08:54:48 INFO  : Applying changes
+2025/09/01 08:54:48 INFO  : - [36mPath1[0m    [35m[32mQueue copy to[0m Path2[0m       - [36mgdrive:rclone/obsidian/LINUX/Bluetooth-клавиатура.md[0m
+2025/09/01 08:54:48 INFO  : - [36mPath1[0m    [35mDo queued copies to[0m                - [36mPath2[0m
+2025/09/01 08:54:49 INFO  : LINUX: Set directory modification time (using SetModTime)
+2025/09/01 08:54:51 INFO  : LINUX/Bluetooth-клавиатура.md: Copied (new)
+2025/09/01 08:54:51 INFO  : Updating listings
+2025/09/01 08:54:51 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/09/01 08:54:51 INFO  : [32mBisync successful[0m
+2025/09/01 08:54:51 INFO  : 
+Transferred:   	        679 B / 679 B, 100%, 135 B/s, ETA 0s
+Checks:                77 / 77, 100%, Listed 100
+Transferred:            1 / 1, 100%
+Elapsed time:         5.7s
+
+=== 2025-09-01 08:54:51 — Sync finished successfully ===
+
+=== 2025-09-03 00:12:50 — Sync started ===
+2025/09/03 00:12:52 INFO  : [2mSetting --ignore-listing-checksum as neither --checksum nor --compare checksum are set.[0m
+2025/09/03 00:12:52 INFO  : Bisyncing with Comparison Settings: 
+{
+	"Modtime": true,
+	"Size": true,
+	"Checksum": false,
+	"HashType1": 0,
+	"HashType2": 0,
+	"NoSlowHash": false,
+	"SlowHashSyncOnly": false,
+	"SlowHashDetected": true,
+	"DownloadHash": false
+}
+2025/09/03 00:12:52 INFO  : Synching Path1 "/home/dimitri/Documents/obsidian/" with Path2 "gdrive:rclone/obsidian/"
+2025/09/03 00:12:52 INFO  : Building Path1 and Path2 listings
+2025/09/03 00:12:53 INFO  : Path1 checking for diffs
+2025/09/03 00:12:53 INFO  : Path2 checking for diffs
+2025/09/03 00:12:53 INFO  : - [34mPath2[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/app.json[0m
+2025/09/03 00:12:53 INFO  : - [34mPath2[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/appearance.json[0m
+2025/09/03 00:12:53 INFO  : - [34mPath2[0m    [35m[33mFile changed: [35mtime (newer)[0m[0m[0m - [36m.obsidian/core-plugins.json[0m
+2025/09/03 00:12:53 INFO  : - [34mPath2[0m    [35m[32mFile is new[0m[0m               - [36mLINUX/IP - change.md[0m
+2025/09/03 00:12:53 INFO  : - [34mPath2[0m    [35m[32mFile is new[0m[0m               - [36mLINUX/Rclone.md[0m
+2025/09/03 00:12:53 INFO  : - [34mPath2[0m    [35m[32mFile is new[0m[0m               - [36mSECURITY/HACK/SPAM problems.md[0m
+2025/09/03 00:12:53 INFO  : Path2:    6 changes: [32m   3 new[0m, [33m   3 modified[0m, [31m   0 deleted[0m
+2025/09/03 00:12:53 INFO  : ([33mModified[0m: [36m   3 newer[0m, [34m   0 older[0m)
+2025/09/03 00:12:53 INFO  : Applying changes
+2025/09/03 00:12:53 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/.obsidian/app.json[0m
+2025/09/03 00:12:53 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/.obsidian/appearance.json[0m
+2025/09/03 00:12:53 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/.obsidian/core-plugins.json[0m
+2025/09/03 00:12:53 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/LINUX/IP - change.md[0m
+2025/09/03 00:12:53 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/LINUX/Rclone.md[0m
+2025/09/03 00:12:53 INFO  : - [34mPath2[0m    [35m[32mQueue copy to[0m Path1[0m       - [36m/home/dimitri/Documents/obsidian/SECURITY/HACK/SPAM problems.md[0m
+2025/09/03 00:12:53 INFO  : - [34mPath2[0m    [35mDo queued copies to[0m                - [36mPath1[0m
+2025/09/03 00:12:54 INFO  : .obsidian/app.json: Updated modification time in destination
+2025/09/03 00:12:54 INFO  : .obsidian/appearance.json: Updated modification time in destination
+2025/09/03 00:12:54 INFO  : .obsidian/core-plugins.json: Updated modification time in destination
+2025/09/03 00:12:54 INFO  : LINUX/Rclone.md: Copied (new)
+2025/09/03 00:12:55 INFO  : LINUX/IP - change.md: Copied (new)
+2025/09/03 00:12:55 INFO  : SECURITY/HACK/SPAM problems.md: Copied (new)
+2025/09/03 00:12:55 INFO  : SECURITY/HACK: Set directory modification time (using SetModTime)
+2025/09/03 00:12:55 INFO  : LINUX: Set directory modification time (using SetModTime)
+2025/09/03 00:12:55 INFO  : SECURITY: Set directory modification time (using SetModTime)
+2025/09/03 00:12:55 INFO  : Updating listings
+2025/09/03 00:12:55 INFO  : Validating listings for Path1 "/home/dimitri/Documents/obsidian/" vs Path2 "gdrive:rclone/obsidian/"
+2025/09/03 00:12:55 INFO  : [32mBisync successful[0m
+2025/09/03 00:12:55 INFO  : 
+Transferred:   	    3.088 KiB / 3.088 KiB, 100%, 188 B/s, ETA 0s
+Checks:                84 / 84, 100%, Listed 113
+Transferred:            3 / 3, 100%
+Elapsed time:         3.1s
+
+=== 2025-09-03 00:12:55 — Sync finished successfully ===
+
